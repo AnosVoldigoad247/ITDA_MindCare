@@ -2,4 +2,38 @@
     <string name="app_name">ITDA MindCare</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_button">LOGIN</string>
+    <string name="nim">NIM</string>
+    <string name="password">Password</string>
+    <string name="daftar_button">DAFTAR</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string-array name="program_studi_array">
+        <item>Pilih Program Studi</item>
+        <item>Informatika</item>
+        <item>D3 Aeronautika</item>
+        <item>Teknik Dirgantara</item>
+        <item>Teknik Industri</item>
+        <item>Teknik Mesin</item>
+        <item>Teknik Elektro</item>
+    </string-array>
+    <!-- Di res/values/strings.xml -->
+    <string name="msg_token_fmt">FCM Registration Token: %1$s</string>
+    <string name="subscribed_message">Berhasil berlangganan</string>
+    <string name="subscribe_failed_message">Gagal berlangganan</string>
+    <string name="notification_permission_denied">Izin notifikasi ditolak. Beberapa fitur mungkin tidak berfungsi.</string>
+    <string name="default_notification_title">Pesan Baru</string>
+    <string name="default_notification_channel_id">default_channel</string>
+    <string name="default_notification_channel_name">Default Channel</string>
+
+    <!-- String lain yang mungkin Anda butuhkan dari kode sebelumnya -->
+    <string name="notification_permission_granted">Izin notifikasi diberikan.</string>
+    <string name="notification_permission_denied_message">Izin notifikasi ditolak. Beberapa fitur mungkin tidak berfungsi.</string>
+    <string name="notification_permission_required_title">Izin Notifikasi Diperlukan</string>
+    <string name="notification_permission_rationale">Aplikasi ini memerlukan izin notifikasi untuk memberi Anda pembaruan penting. Izinkan?</string>
+    <string name="notification_permission_not_granted_yet">Izin notifikasi tidak diberikan saat ini.</string>
+    <string name="fcm_token_stored_successfully">Token FCM berhasil disimpan.</string>
+    <string name="fcm_token_store_failed">Gagal menyimpan token FCM ke Firestore.</string>
+    <string name="ok">OK</string>
+    <string name="later">Lain Kali</string>
 </resources>
